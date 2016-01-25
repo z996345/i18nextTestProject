@@ -8,7 +8,8 @@
   "moduleType": [],
   "keywords": [
     "i18next",
-    "Test"
+    "node",
+    "jquery"
   ],
   "license": "MIT",
   "homepage": "",
@@ -16,11 +17,10 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "i18next": "1.x"
   }
 }

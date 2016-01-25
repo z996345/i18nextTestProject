@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Test Project</title>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="js/i18n-1.11.2.js"></script>
+    <script type="text/javascript" src="bower_components/i18next/i18next.min.js"></script>
     <script>
     $(document).ready(function() {
         i18n.init({
@@ -18,7 +18,7 @@
     });
 
     function ShowMessage() {
-        alert(i18n.t("app.test_message"));
+        alert(i18n.t("app.test_message"));//i18n.t()--> 在code裡面更改語系
     }
     </script>
 </head>
