@@ -1,0 +1,6 @@
+{
+    "app": {
+        "name": "i18next Example",
+        "test_message": "Test"
+    }
+}

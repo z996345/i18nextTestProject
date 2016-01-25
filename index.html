@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test Project</title>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/i18n-1.11.2.js"></script>
+    <script>
+    $(document).ready(function() {
+        i18n.init({
+                resGetPath: '/locales/translation.__lng__.json',
+                lng: 'en'//語系改這裡 en/zh-TW
+            },
+            function(t) {
+                $("body").i18n();
+            });
+    });
+
+    function ShowMessage() {
+        alert(i18n.t("app.test_message"));
+    }
+    </script>
+</head>
+
+<body>
+    <h1>Sample A – 基本使用方式</h1>
+    <!-- <h2 data-i18n="app.name"></h2> -->
+    <input type="button" value="Show Message" onclick="ShowMessage()" />
+    <p data-i18n="app.name"></p>
+</body>
+
+</html>

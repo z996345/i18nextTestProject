@@ -1,0 +1,6 @@
+{
+    "app": {
+        "name": "i18next 範例",
+        "test_message": "測試"
+    }
+}

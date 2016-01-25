@@ -1,0 +1,26 @@
+{
+  "name": "i18next",
+  "authors": [
+    "z996345 <z996345@hotmail.com>"
+  ],
+  "description": "TestProject",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "i18next",
+    "Test"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
