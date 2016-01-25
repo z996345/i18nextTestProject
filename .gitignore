@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/ow,bower,node
 
 #!! ERROR: ow is undefined. Use list command to see defined gitignore types !!#
@@ -10,6 +11,8 @@ bower_components
 
 
 ### Node ###
+=======
+>>>>>>> 9bd388497d79e929c36d91970d26f5b6f9c52e2e
 # Logs
 logs
 *.log
